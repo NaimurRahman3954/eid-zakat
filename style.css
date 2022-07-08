@@ -1,0 +1,221 @@
+body{
+   font-family: 'Inter', sans-serif;
+   font-size: 20 px;
+   margin: 0;
+}
+
+section{
+   margin-top: 100px;
+}
+
+.center{
+   text-align: center;
+}
+
+h3{
+   font-size: 45px;
+   font-weight: bold;
+}
+
+p{
+   color: #707070;
+   font-size: 18px;
+}
+
+header{
+   position: relative;
+   top: -50px;
+   height: 630px;
+   color: white;
+   background-image: url(https://prod-media-eng.dhakatribune.com/uploads/2018/08/mehedi-hasan00044-1534795869338.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+   padding-top: 320px;
+   padding-left: 200px;
+}
+
+header h1{
+   font-size: 65px;
+   font-weight: bold;
+}
+
+header p{
+   margin-bottom: 50px;
+   color: white;
+}
+
+button{
+   font-size: 20px;
+   font-weight: bold;
+   padding: 20px;
+   background-color: #EF233C;
+   color: white;
+   border-radius: 5px;
+   border: none;
+}
+
+.tile-deck, .card-deck{
+   width: 100%;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+}
+
+.tile{
+   height: 120px;
+   width: 135px;
+   color: #707070;
+   font-size: 30px;
+   font-weight: bold;
+   background-color: #FAFAFA;
+   border-radius: 5px;
+   margin: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#active{
+   color: #FF5959;
+   background-color: #FFEEEE;
+   border: 1px solid #FF5959;
+}
+
+input{
+   font-size: 20px;
+   font-weight: 100;
+   color: #B3B3B3;
+   display: flex;
+   padding: 20px;
+   margin: 30px auto 0 auto;
+   border: none;
+}
+
+hr{
+   width: 50%;
+   margin-bottom: 30px;
+   border-top: #DADADA;
+}
+
+.card-deck{
+   margin: 50px auto;
+}
+
+.card{
+   width: 400px;
+   padding: 80px 30px 50px 30px;
+   margin: 15px;
+   border-radius: 5px;
+}
+
+.charity .card{
+   width: 300px;
+   padding: 80px 30px 50px 30px;
+   margin: 15px;
+   border-radius: 5px;
+}
+
+.images .card{
+   width: 300px;
+   padding: 80px 30px 50px 30px;
+   margin: 15px;
+   border-radius: 5px;
+}
+#card-1{
+   background-color: #4F9DA610;
+}
+
+#card-2{
+   background-color: #f6f4F9;
+}
+
+#card-3{
+   background-color: #FF595910;
+}
+
+#card-4{
+   background-color: #FFF4D6;
+}
+
+.card h4{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.card p{
+   text-align: justify;
+}
+
+.button-center, .donation, .survive, .subscribe, .test{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+}
+
+.half{
+   width: 40%;
+   height: 400px;
+   margin: 30px;
+}
+
+.image-half{
+   height: 400px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-color: yellow;
+   border-radius: 5px;
+}
+
+.donation .image-half{
+   background-image: url(https://www.bproperty.com/blog/wp-content/uploads/image_2020_07_20T07_24_36_045Z.png);
+}
+
+.survive .image-half{
+   background-image: url(https://www.observerbd.com/2019/08/09/observerbd.com_1565625728.jpg);
+}
+
+.survive{
+   margin-top: 100px;
+}
+
+.subscribe{
+   height: 200px;
+   width: 800px;
+   border-radius: 5px;
+   background-color: #FFF4D6;
+   margin-top: 50px;
+   margin-bottom: 100px;
+}
+
+.subscribe input{
+   display: block;
+   width: 275px;
+   background-color: #D9D9D9;
+   border-radius: 5px 0 0 5px;
+   margin: 0;
+}
+
+.subscribe button{
+   border-radius: 0 5px 5px 0;
+}
+
+footer{
+   height: 180px;
+   background-color: #0B0D17;
+}
+
+footer h3{
+   font-size: 36px;
+   font-family: 'Lobster', cursive;
+   color: #FF5959;
+   padding-top: 40px;
+}
+
+footer p{
+   font-weight: 200;
+   font-size: 14px;
+   color: white;
+}
